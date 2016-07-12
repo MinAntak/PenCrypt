@@ -1,0 +1,17 @@
+.\" Manpage for nuseradd.
+.\" Contact minantak@gmail.com
+
+.TH man 8 "24 May 2016" "1.0" "pencrypt man page"
+.SH NAME
+pencrypt \- create and manage hidden volumes on pendrive
+.SH SYNOPSIS
+pencrypt
+pencrpyt -a Automount. Scan devices detecting hidden volumines to mount or if it is mounted then if device is plug out to dismount hidden volume
+.SH DESCRIPTION
+pencrypt let create hidden volumines in file. User can choose name, location, password, filesystem, size, encryption method. User can also create hidden volume inside container. This volume has diffrent password and size, so it can keep there diffrent files. Program creates special file on pendrive, which let him autodetect container to mount.
+.SH OPTIONS
+Program does not take any options. User can customize only his container to create.
+.SH SEE ALSO
+veracrypt(1), mount(1), umount(1), lsblk(1)
+.SH AUTHOR
+Marcin Antolak (minantak@gmail.com)
